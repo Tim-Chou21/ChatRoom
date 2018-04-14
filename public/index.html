@@ -1,0 +1,76 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="main.css" />
+
+  <title>Chat_Room</title>
+  <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-storage.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-database.js"></script>
+  <!--<script src="config.js"></script>
+  -->
+  <script src="index.js"></script>
+  <script type = "text/javascript"></script>
+
+  <style type = "text/css">
+  .effect{
+    animation : blink 1s infinite;
+  }
+  @keyframes  blink{
+    0%{opacity: 0}
+    50% {opacity: 1}
+    100% {opacity: 0}
+  }
+  </style>
+
+  </head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Simple ChatRoom</a>
+        <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Account</a>
+                    <div id="dynamic-menu" class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="signin.html">Login</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+  <div id="im">
+    <div id="input">
+      <div>
+        <span>暱稱：</span><input id="name"><br/>
+        <span>內容：</span><input id="content">
+      </div>
+      <button id="btn" class = "effect">送出訊息</button>      
+    </div>
+    <div id="show"></div>
+  </div>
+
+  <!--
+  <div class = "effect">Have Fun</div>
+  -->
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  
+  </body>
+</html>
