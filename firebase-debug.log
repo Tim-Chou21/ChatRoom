@@ -1,0 +1,66 @@
+[debug] [2018-04-15T04:44:39.417Z] ----------------------------------------------------------------------
+[debug] [2018-04-15T04:44:39.419Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-04-15T04:44:39.419Z] CLI Version:   3.18.4
+[debug] [2018-04-15T04:44:39.419Z] Platform:      darwin
+[debug] [2018-04-15T04:44:39.419Z] Node Version:  v8.11.1
+[debug] [2018-04-15T04:44:39.420Z] Time:          Sun Apr 15 2018 12:44:39 GMT+0800 (CST)
+[debug] [2018-04-15T04:44:39.420Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-15T04:44:39.430Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-15T04:44:39.430Z] > authorizing via signed-in user
+[debug] [2018-04-15T04:44:39.431Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-15T04:44:39.432Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/D5XgveExmax06FRnJqX9OXcEJImdmQBhm5AxWutrlJA',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Apr 15 2018 12:44:39 GMT+0800 (CST)
+[debug] [2018-04-15T04:44:39.755Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-15T04:44:39.768Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/software-sdutio-2018  
+  
+ Sun Apr 15 2018 12:44:39 GMT+0800 (CST)
+[debug] [2018-04-15T04:44:40.938Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-15T04:44:40.939Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/software-sdutio-2018/tokens  
+  
+ Sun Apr 15 2018 12:44:40 GMT+0800 (CST)
+[debug] [2018-04-15T04:44:41.858Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-15T04:44:41.859Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/software-sdutio-2018  
+  
+ Sun Apr 15 2018 12:44:41 GMT+0800 (CST)
+[debug] [2018-04-15T04:44:42.953Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/Tim/Desktop/Midterm_Project'...
+[info] 
+[debug] [2018-04-15T04:44:42.955Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/236096642826/clients/_:getWebAppConfig  
+  
+ Sun Apr 15 2018 12:44:42 GMT+0800 (CST)
+[debug] [2018-04-15T04:44:44.197Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[debug] [2018-04-15T04:44:44.210Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/236096642826/clients/_:getWebAppConfig  
+  
+ Sun Apr 15 2018 12:44:44 GMT+0800 (CST)
+[debug] [2018-04-15T04:44:45.734Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5004 is not available. Trying another port...
+[debug] [2018-04-15T04:44:45.736Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/236096642826/clients/_:getWebAppConfig  
+  
+ Sun Apr 15 2018 12:44:45 GMT+0800 (CST)
+[debug] [2018-04-15T04:44:46.657Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5008 is not available. Trying another port...
+[debug] [2018-04-15T04:44:46.660Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/236096642826/clients/_:getWebAppConfig  
+  
+ Sun Apr 15 2018 12:44:46 GMT+0800 (CST)
+[debug] [2018-04-15T04:44:47.578Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5012 is not available. Trying another port...
+[debug] [2018-04-15T04:44:47.581Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/236096642826/clients/_:getWebAppConfig  
+  
+ Sun Apr 15 2018 12:44:47 GMT+0800 (CST)
+[debug] [2018-04-15T04:44:48.806Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5016 is not available. Trying another port...
+[debug] [2018-04-15T04:44:48.810Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/236096642826/clients/_:getWebAppConfig  
+  
+ Sun Apr 15 2018 12:44:48 GMT+0800 (CST)
+[debug] [2018-04-15T04:44:49.730Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5020
+
