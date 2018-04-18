@@ -44,3 +44,148 @@
 [info] i  hosting: Serving hosting files from: public
 [info] ✔  hosting: Local server: http://localhost:5004
 
+[debug] [2018-04-18T12:48:35.522Z] ----------------------------------------------------------------------
+[debug] [2018-04-18T12:48:35.524Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-04-18T12:48:35.524Z] CLI Version:   3.18.4
+[debug] [2018-04-18T12:48:35.524Z] Platform:      darwin
+[debug] [2018-04-18T12:48:35.524Z] Node Version:  v8.11.1
+[debug] [2018-04-18T12:48:35.525Z] Time:          Wed Apr 18 2018 20:48:35 GMT+0800 (CST)
+[debug] [2018-04-18T12:48:35.525Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-18T12:48:35.538Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-18T12:48:35.538Z] > authorizing via signed-in user
+[debug] [2018-04-18T12:48:35.540Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-18T12:48:35.540Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/D5XgveExmax06FRnJqX9OXcEJImdmQBhm5AxWutrlJA',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Apr 18 2018 20:48:35 GMT+0800 (CST)
+[debug] [2018-04-18T12:48:35.661Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-18T12:48:35.675Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/software-sdutio-2018  
+  
+ Wed Apr 18 2018 20:48:35 GMT+0800 (CST)
+[debug] [2018-04-18T12:48:36.492Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-18T12:48:36.494Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/software-sdutio-2018/tokens  
+  
+ Wed Apr 18 2018 20:48:36 GMT+0800 (CST)
+[debug] [2018-04-18T12:48:37.178Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-18T12:48:37.179Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/software-sdutio-2018  
+  
+ Wed Apr 18 2018 20:48:37 GMT+0800 (CST)
+[debug] [2018-04-18T12:48:38.175Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/Tim/Desktop/Midterm_Project'...
+[info] 
+[debug] [2018-04-18T12:48:38.178Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/236096642826/clients/_:getWebAppConfig  
+  
+ Wed Apr 18 2018 20:48:38 GMT+0800 (CST)
+[debug] [2018-04-18T12:48:38.789Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[debug] [2018-04-18T12:48:38.822Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/236096642826/clients/_:getWebAppConfig  
+  
+ Wed Apr 18 2018 20:48:38 GMT+0800 (CST)
+[debug] [2018-04-18T12:48:39.402Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5004 is not available. Trying another port...
+[debug] [2018-04-18T12:48:39.408Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/236096642826/clients/_:getWebAppConfig  
+  
+ Wed Apr 18 2018 20:48:39 GMT+0800 (CST)
+[debug] [2018-04-18T12:48:40.324Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5008
+
+[debug] [2018-04-18T12:49:31.630Z] Error: write EIO
+    at _errnoException (util.js:1022:11)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:880:14)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-04-18T12:49:31.650Z] Error: write EIO
+    at _errnoException (util.js:1022:11)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:880:14)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-04-18T13:09:48.559Z] ----------------------------------------------------------------------
+[debug] [2018-04-18T13:09:48.561Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-04-18T13:09:48.561Z] CLI Version:   3.18.4
+[debug] [2018-04-18T13:09:48.561Z] Platform:      darwin
+[debug] [2018-04-18T13:09:48.562Z] Node Version:  v8.11.1
+[debug] [2018-04-18T13:09:48.562Z] Time:          Wed Apr 18 2018 21:09:48 GMT+0800 (CST)
+[debug] [2018-04-18T13:09:48.562Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-18T13:09:48.573Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-18T13:09:48.573Z] > authorizing via signed-in user
+[debug] [2018-04-18T13:09:48.575Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/software-sdutio-2018  
+  
+ Wed Apr 18 2018 21:09:48 GMT+0800 (CST)
+[debug] [2018-04-18T13:09:49.559Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-18T13:09:49.559Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/software-sdutio-2018/tokens  
+  
+ Wed Apr 18 2018 21:09:49 GMT+0800 (CST)
+[debug] [2018-04-18T13:09:50.294Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-18T13:09:50.297Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/software-sdutio-2018  
+  
+ Wed Apr 18 2018 21:09:50 GMT+0800 (CST)
+[debug] [2018-04-18T13:09:51.281Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/Tim/Desktop/Midterm_Project'...
+[info] 
+[debug] [2018-04-18T13:09:51.282Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/236096642826/clients/_:getWebAppConfig  
+  
+ Wed Apr 18 2018 21:09:51 GMT+0800 (CST)
+[debug] [2018-04-18T13:09:51.841Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[debug] [2018-04-18T13:09:51.862Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/236096642826/clients/_:getWebAppConfig  
+  
+ Wed Apr 18 2018 21:09:51 GMT+0800 (CST)
+[debug] [2018-04-18T13:09:52.404Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5004
+
+[debug] [2018-04-18T13:10:41.310Z] ----------------------------------------------------------------------
+[debug] [2018-04-18T13:10:41.312Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-04-18T13:10:41.313Z] CLI Version:   3.18.4
+[debug] [2018-04-18T13:10:41.313Z] Platform:      darwin
+[debug] [2018-04-18T13:10:41.313Z] Node Version:  v8.11.1
+[debug] [2018-04-18T13:10:41.313Z] Time:          Wed Apr 18 2018 21:10:41 GMT+0800 (CST)
+[debug] [2018-04-18T13:10:41.313Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-18T13:10:41.324Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-18T13:10:41.324Z] > authorizing via signed-in user
+[debug] [2018-04-18T13:10:41.326Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/software-sdutio-2018  
+  
+ Wed Apr 18 2018 21:10:41 GMT+0800 (CST)
+[debug] [2018-04-18T13:10:42.153Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-18T13:10:42.154Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/software-sdutio-2018/tokens  
+  
+ Wed Apr 18 2018 21:10:42 GMT+0800 (CST)
+[debug] [2018-04-18T13:10:42.860Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-18T13:10:42.861Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/software-sdutio-2018  
+  
+ Wed Apr 18 2018 21:10:42 GMT+0800 (CST)
+[debug] [2018-04-18T13:10:43.913Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/Tim/Desktop/Midterm_Project'...
+[info] 
+[debug] [2018-04-18T13:10:43.915Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/236096642826/clients/_:getWebAppConfig  
+  
+ Wed Apr 18 2018 21:10:43 GMT+0800 (CST)
+[debug] [2018-04-18T13:10:44.535Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[debug] [2018-04-18T13:10:44.559Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/236096642826/clients/_:getWebAppConfig  
+  
+ Wed Apr 18 2018 21:10:44 GMT+0800 (CST)
+[debug] [2018-04-18T13:10:45.448Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5004 is not available. Trying another port...
+[debug] [2018-04-18T13:10:45.455Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/236096642826/clients/_:getWebAppConfig  
+  
+ Wed Apr 18 2018 21:10:45 GMT+0800 (CST)
+[debug] [2018-04-18T13:10:46.382Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5008 is not available. Trying another port...
+[debug] [2018-04-18T13:10:46.388Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/236096642826/clients/_:getWebAppConfig  
+  
+ Wed Apr 18 2018 21:10:46 GMT+0800 (CST)
+[debug] [2018-04-18T13:10:46.992Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5012
+
