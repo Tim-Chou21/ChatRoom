@@ -189,3 +189,44 @@
 [info] i  hosting: Serving hosting files from: public
 [info] ✔  hosting: Local server: http://localhost:5012
 
+[debug] [2018-04-19T04:07:49.750Z] ----------------------------------------------------------------------
+[debug] [2018-04-19T04:07:49.753Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-04-19T04:07:49.753Z] CLI Version:   3.18.4
+[debug] [2018-04-19T04:07:49.753Z] Platform:      darwin
+[debug] [2018-04-19T04:07:49.753Z] Node Version:  v8.11.1
+[debug] [2018-04-19T04:07:49.754Z] Time:          Thu Apr 19 2018 12:07:49 GMT+0800 (CST)
+[debug] [2018-04-19T04:07:49.754Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-19T04:07:49.771Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-19T04:07:49.772Z] > authorizing via signed-in user
+[debug] [2018-04-19T04:07:49.774Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-19T04:07:49.775Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/D5XgveExmax06FRnJqX9OXcEJImdmQBhm5AxWutrlJA',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Apr 19 2018 12:07:49 GMT+0800 (CST)
+[debug] [2018-04-19T04:07:49.941Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-19T04:07:49.956Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/software-sdutio-2018  
+  
+ Thu Apr 19 2018 12:07:49 GMT+0800 (CST)
+[debug] [2018-04-19T04:07:50.795Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-19T04:07:50.796Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/software-sdutio-2018/tokens  
+  
+ Thu Apr 19 2018 12:07:50 GMT+0800 (CST)
+[debug] [2018-04-19T04:07:51.711Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-19T04:07:51.713Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/software-sdutio-2018  
+  
+ Thu Apr 19 2018 12:07:51 GMT+0800 (CST)
+[debug] [2018-04-19T04:07:52.927Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/Tim/Desktop/Midterm_Project'...
+[info] 
+[debug] [2018-04-19T04:07:52.929Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/236096642826/clients/_:getWebAppConfig  
+  
+ Thu Apr 19 2018 12:07:52 GMT+0800 (CST)
+[debug] [2018-04-19T04:07:53.542Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+

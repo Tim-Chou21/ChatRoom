@@ -12,6 +12,7 @@
     3. [chat with new user]
 * Other functions (add/delete)
     1. [Sign Up/In with Google or other third-partyaccounts]
+    <img src = 'login.png'></img>
     2. [Use CSS animation]
     <img src = 'css.png'></img>
     3. [Proove your website has strong security]
