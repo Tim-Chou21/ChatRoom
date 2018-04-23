@@ -1,5 +1,20 @@
 var firebase;
+
+document.addEventListener('DOMContentLoaded', function () {
+  if (!Notification) {
+      alert('Desktop notifications not available in your browser. Try Chromium.');
+      return;
+  }
+
+  if (Notification.permission !== "granted")
+      Notification.requestPermission();
+});
+
+
+
+
 $(function(){
+ 
   var $name = $('#name'),
       $content = $('#content'),
       $btn = $('#btn'),
@@ -16,10 +31,15 @@ $(function(){
   firebase.initializeApp(config);
   var database = firebase.database().ref();
   
-  $btn.on('click',write);
+  $btn.on('click',function(){
+      write();
+      notifyMe();
+  });
+
   $content.on('keydown', function(e){
     if(e.keyCode == 13){
       write();
+      notifyMe();
     }
   });
   
@@ -99,5 +119,20 @@ $(function(){
     }
 });
 
-  
+function notifyMe() {
+  if (Notification.permission !== "granted")
+      Notification.requestPermission();
+  else {
+      var notification = new Notification('SUITANGTANG Official', {
+          icon: 'warn.png',
+          body: "有人傳送了新訊息！",
+      });
+      notification.onclick = function () {
+          window.location.replace('index.html');
+      };
+  }
+}  
+
+
+
 });
