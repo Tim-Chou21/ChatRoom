@@ -123,7 +123,7 @@ function notifyMe() {
   if (Notification.permission !== "granted")
       Notification.requestPermission();
   else {
-      var notification = new Notification('SUITANGTANG Official', {
+      var notification = new Notification('Chatroom', {
           icon: 'warn.png',
           body: "有人傳送了新訊息！",
       });

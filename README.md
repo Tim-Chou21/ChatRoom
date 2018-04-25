@@ -17,7 +17,8 @@
     <img src = 'css.png'></img>
     3. [Proove your website has strong security]
     <img src = 'security.png'></img>
-
+    4.[Add Chrome notification]
+    <img src = 'notice.png'></img>
 
 ## Basic Components
 |Component|Score|Y/N|
@@ -41,9 +42,16 @@
     主要分為兩個網頁，一個是聊天室的網頁，一個是login的網頁。
     
     在聊天室的網頁中大致上可以分為三個區塊，navbar,聊天內容區,暱稱和輸入內容區。
+    ##
+<img src = 'bar.png'></img>
+<img src = 'chat2.png'></img>
+<img src = 'id.png'></img>
     
     navbar：有一個account可以往下拉，往下拉後若當前有使用者登入，則會顯示當前使用者的帳戶名稱，且在帳戶名稱下方會有一個logout的按鈕可以登出，反之，若是沒有在沒有使用者登入的情況下則會顯示login的按鈕，點擊即可跳往login的頁面。
-    
+    ##
+<img src = 'account2.png'></img>
+<img src = 'account1.png'></img>
+
     聊天內容區：在這個區域當中會顯示大家的聊天內容以及自己說的話。
     
     暱稱和輸入內容區：可以設定暱稱，決定顯示在聊天內容區時的名字。在內容的格子中，可以輸入想說的話。在暱稱與內容的格子旁則是送出訊息的按鈕，這個按鈕加了css animation，可以讓按鈕閃爍，提示使用者送出訊息，而為了增加方便性，也讓他在按下enter鍵時也可以送出訊息，不用再移動滑鼠按下按鈕。

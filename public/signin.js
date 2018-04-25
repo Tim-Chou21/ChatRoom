@@ -1,3 +1,4 @@
+var video = document.getElementById("myVideo");
 function initApp() {
     // Login with Email/Password
     var txtEmail = document.getElementById('inputEmail');
@@ -136,4 +137,5 @@ function create_alert(type, message) {
 
 window.onload = function () {
     initApp();
+    video.play();
 };
