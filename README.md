@@ -16,7 +16,6 @@
     2. [Use CSS animation]
     <img src = 'css.png'></img>
     3. [Proove your website has strong security]
-    <img src = 'security.png'></img>
     4.[Add Chrome notification]
     <img src = 'notice.png'></img>
 
@@ -58,4 +57,21 @@
 
     最後是login的網頁，在這個網頁中大部分都是把在lab課實作的內容套用過來的，並且新增了facebook登入的選項。
 ## Security Report (Optional)
-    變更網站權限，使某些特定東西需要經過詢問才能使用。
+    1.使用firebase的authentication，確保只有在有使用者登入的情況下才能看到聊天的歷史紀錄，若是沒有登入的話則無法看到聊   天內容。
+    
+    2.https:
+        HTTPS (超文字安全傳輸通訊協定) 是一種網際網路通訊協定，可確保資料在使用者的電腦和網站之間傳輸時，保有完整性和機密性。
+
+        透過 HTTPS 傳送的資料非常安全，因為 HTTPS 會透過「傳輸層安全性」通訊協定 (TLS) 提供以下三道重要的資安防護   網：
+            1.加密：對交換的資料進行加密，防止資料遭到竊取。也就是說，當使用者在瀏覽網站時，任何人都無法「竊聽」其對話、追蹤他們在多個網頁之間轉換的活動，或竊取其資訊。
+    
+            2.資料完整性：系統會偵測出資料在傳輸過程中是否遭到有意或無意的修改或破壞。   
+
+            3.驗證：驗證您的使用者是否與預期的網站進行通訊。這能預防攔截式攻擊並建立使用者的信任感，進而促進其他商業利益。變更網站權限，使某些特定東西需要經過詢問才能使用。
+    
+    3.防止網頁被另存新檔：只支援IE，實作方式是在頁面最上方插入一個不存在的 iframe 利用此方法讓 IE 無法正確的存下網頁而                     導致錯誤
+
+## 使用到的template
+
+網址：https://tutorials.webduino.io/zh-tw/docs/socket/useful/im-1.html
+     https://tutorials.webduino.io/zh-tw/docs/socket/useful/im-2.html

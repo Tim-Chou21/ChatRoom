@@ -10,9 +10,6 @@ document.addEventListener('DOMContentLoaded', function () {
       Notification.requestPermission();
 });
 
-
-
-
 $(function(){
  
   var $name = $('#name'),
@@ -133,6 +130,12 @@ function notifyMe() {
   }
 }  
 
+jQuery(document).ready(function()
+{
+$(this).bind("contextmenu", function(e) {
+        e.preventDefault();
+    });
+});
 
 
 });
