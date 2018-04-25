@@ -69,8 +69,16 @@
 
             3.驗證：驗證您的使用者是否與預期的網站進行通訊。這能預防攔截式攻擊並建立使用者的信任感，進而促進其他商業利益。變更網站權限，使某些特定東西需要經過詢問才能使用。
     
-    3.防止網頁被另存新檔：只支援IE，實作方式是在頁面最上方插入一個不存在的 iframe 利用此方法讓 IE 無法正確的存下網頁而                     導致錯誤
+    3.防止網頁被另存新檔：只支援IE，實作方式是在頁面最上方插入一個不存在的 iframe 利用此方法讓 IE 無法正確的存下網頁而                     導致錯誤。
+<img src = 'copy.png'></img>
 
+    4.阻擋滑鼠右鍵選單:實作方式是利用 js 阻擋滑鼠右鍵的預設行為。
+<img src = 'click.png'></img>
+
+    5.防止網頁被列印:實作方式是利用 CSS Media 設定列印時的 CSS 將 Body 以下元素整個隱藏。
+<img src = 'print.png'></img>
+    6.防止網頁被複製:實作方式是在 Body 加上特殊屬性。
+<img src = 'copy2.png'></img>
 ## 使用到的template
 
 網址：https://tutorials.webduino.io/zh-tw/docs/socket/useful/im-1.html
