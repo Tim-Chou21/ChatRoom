@@ -1,6 +1,6 @@
 # Software Studio 2018 Spring Midterm Project
 ## Notice
-* Replace all [xxxx] to your answer
+Web URL:https://105062338.gitlab.io/Midterm_Project
 
 ## Topic
 * [Chat_Room]
